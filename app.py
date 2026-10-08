@@ -1,6 +1,4 @@
-print("oke Lets gooo")
-def hello_world():
-    print("Hello, World!")
-hello_world()
+import streamlit as st
 
-x = 5 
+st.title("My first Streamlit app")
+st.write("It works!")
